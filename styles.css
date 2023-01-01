@@ -1,0 +1,20 @@
+html {
+background-color: #363636
+}
+
+html *{
+color: red
+}
+
+.column > h1 {
+    color:blue !important
+}
+body > * {
+    border: 1px solid black
+}
+.custom-icons > span {
+    background-color: #f5f5f5;
+    border-radius:  100px;
+    padding: 35px;
+    margin: 10px;
+}

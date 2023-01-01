@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <selection class="columns">
+        <div class="columns">
+        <h1 class="title">Hello world</h1>
+        </div>
+        <div class="columns">
+        <h2 class="subtitle">This is my profile</h2>
+        </div>
+        <div class="columns">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi obcaecati illum quaerat quia veniam quas quis
+            quos. Nihil doloribus, repellendus placeat delectus autem aut molestias illum, magni ipsum quibusdam amet.</p>
+        </div>
+    </selection>
+<body class="container p-5">
+<header class="hero">
+    <div class="columns p-5 is-vcentered">
+        <div class="column is-one-third">
+            <div class='level'>
+                 <div class='level-item has-text-centered-desktop'>
+                   <figure class='image is-128x128'><img scr='https://dummyimage.com/128x128/f5f5f5/000000.jpg'></figure>
+                </div>
+           <div>
+        <div>
+        <div clas="column has-text-centered notifiction">
+            <h1 class="title">header Text,/h1>
+        </div>
+     </div>
+ </div>header>
+    logo <div class="columns">
+        <div class ="column"><figure class="image is-128x128">
+            <img scr="https://dummyimage.com/128x128/f5f5f5/000000.jpg"></figure>
+        </figure>/div>
+        <div class="column">Header</div>
+    >div class="column"><div class="column">
+        <h1 class="title">Header</h1>
+        </div>/div>
+    </div>
+    <Header>
+        <nav class="level p-5 subtitle is-5 notification">
+            <p class="level-item navbar-item">
+                <a href="index.html" class="link">Home</a></p>
+            >p class="level-item navbar-item">
+                <a href="/html/contact.html" class="link">Gallery</a></p>
+            >p class="level-item navbar-item">
+                <a href=" /html/contact.html" class="link" >Contact</a></p>
+        </nav>
+<section>
+    <div class="columns">
+         </div class="column content">
+            <div class="notification">
+                <h2>Heading 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi eaque atque
+                    accusantium nisi, repellat molestiae exercitationem ullam modi, nesciunt eveni
+                    dicta unde quos at cumque facilis!</p>
+            </div>
+            <div class="notification">
+                <h2></h2>
+                <p></p>
+            </div class="column has-text-centered">
+                <figure class="image is-inline-block"><img src="" alt=""<>/figure>
+            <div>
+         </div> 
+    Heading 1
+    Heading 2
+    Image
+</section>
+<footer class="has-text-centered mt-2 custom-icons">
+    <span class="icon is-large">
+        <i class="fa-brands fa-facebook fa-2x"></i>
+    </span>
+    <span class="icon is-large">
+        <i class="fa-brands fa-twitter fa-2x"></i>
+    </span>
+    <span class="icon is-large">
+        <i class="fa-brands fa-instagram fa-2x"></i>
+    </span>
+   </footer>
+</body>
+    
+</html>
