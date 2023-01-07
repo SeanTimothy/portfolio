@@ -22,10 +22,15 @@ body > * {
     padding: 35px;
     margin: 10px;
 }
-<style> 
+
+#crazy_banner {
+    width: 100%;
+    background-image: url(portfolio/img/banner.jpeg);
+  }
+
+
 .banner {
     /* The image used */
     background-image:
     url(portfolio/img/banner.jpeg);
   }
-</style> 
