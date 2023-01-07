@@ -5,12 +5,8 @@ background-color: #363636
 html *{
 color: red
 }
-/*
-.column > h1 {
-    color:blue !important
-}
-*/
-/* The grid: Four equal columns that floats next to each other */
+
+/* The grid: three equal columns that float next to each other */
 .column {
     float: left;
     width: 25%;
@@ -25,3 +21,9 @@ body > * {
     padding: 35px;
     margin: 10px;
 }
+
+.banner {
+    /* The image used */
+    background-image:
+    url(/portfolio/img/banner.jpeg);
+  }
