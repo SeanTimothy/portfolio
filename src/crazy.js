@@ -1,5 +1,5 @@
 
 function load_html_files( ){
-    $("#crazyheader").load("portfolio/html/header.html"); 
-    $("#crazyfooter").load("portfolio/html/footer.html"); 
+    $("#crazyheader").load("https://seantimothy.github.io/portfolio/html/header.html"); 
+    $("#crazyfooter").load("https://seantimothy.github.io/portfolio/html/footer.html"); 
 }
