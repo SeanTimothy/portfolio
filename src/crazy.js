@@ -1,3 +1,4 @@
+var fields = {};
 
 function load_html_files( ){
     $("#crazyheader").load("https://seantimothy.github.io/portfolio/html/header.html"); 
@@ -7,6 +8,7 @@ function load_html_files( ){
 function getGender() {
     return document.querySelector('input[name="gender"]:checked')
    }
+
 
    document.addEventListener("DOMContentLoaded", function() {
     fields.firstName = document.getElementById('firstName');
