@@ -92,7 +92,7 @@ function getGender() {
     this.email = email;
     this.newsletter = newsletter;
     this.question = question;
-    }
+    } 
    }
 
 function sendContact() {
