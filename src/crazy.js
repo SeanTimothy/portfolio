@@ -1,5 +1,5 @@
 
 function load_html_files( ){
-    $("#header").load("portfolio/html/header.html"); 
-    $("#footer").load("portfolio/html/footer.html"); 
+    $("#crazyheader").load("portfolio/html/header.html"); 
+    $("#crazyfooter").load("portfolio/html/footer.html"); 
 }
