@@ -77,8 +77,8 @@ function getGender() {
 
    function arePasswordsEqual() {
     if (fields.password.value == fields.passwordCheck.value) {
-    field.password.className = 'placeholderRed';
-    field.passwordCheck.className = 'placeholderRed';
+    fields.password.className = 'placeholderRed';
+    fields.passwordCheck.className = 'placeholderRed';
     return true;
     }
     return false
