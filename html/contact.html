@@ -49,28 +49,35 @@
             </p>
         </nav>
         <section>
-        <div class="columns">
-            <div class="column content">
-                <div class="notification">
-                    <h2>Based on tradition</h2>
-                    <p>Baking is as old as civilisation and a baker from Pompei would recognise the kitchen at Crazy Bakery. Crazy
-                    </p>
-                </div>
-            </div>
-            <div class="column content">
-                <div class="notification">
-                    <h2>Based on innovation</h2>
-                    <p>Crazy bakery uses the highest quality ingredients from local producers who are committed to sustainable practices. Energy is expensive both in money terms and environmental impact. Our ovens have been designed by innovation Queensland to having the lowest heat lost and save energy. Although our lighting and cooling are the most efficient available it is still our ovens that use most energy. Our ovens run on ethanol that is sourced from the same farm as our flour, we are still looking at ways to further reduce our impact. Crazy
-                    </p>
-                </div>
-            </div>
-            <div class="column content">
-                <div class="column has-text-centered">
-                    <figure class="image is-inline-block">
-                        <img src="/portfolio/img/crazy_bakery01.jpeg" alt="Crazy Bakery, crazy about baking"></figure>
-                </div>
-            </div>
-        </div>
+            <form onsubmit="return false">
+            <input type="text" placeholder="Enter your last name" id="lastName" />
+            <br><br>
+            <input type="text" placeholder="Enter your first name" id="firstName" />
+            </form>
+            <input type="radio" id="male" name="gender" value="male"> Male
+            <input type="radio" id="female" name="gender" value="female"> Female
+            <input type="radio" id="X" name="gender" value="female"> Indeterminate, intersex, unspecified
+            <br><br>
+            <input type="email" placeholder="Enter your email" id="email" />
+            <input type="text" placeholder="Address" id="address" />
+            <input type="text" placeholder="House number" id="houseNumber" />
+            <select id="country">
+            <option disabled selected value> -- select a country -- </option>
+            <option value="Narnia">Narnia</option>
+            <option value="Neverland">Neverland</option>
+            <option value="Vulcan">Vulcan</option>
+            </select>
+            <br><br>
+            <input type="password" placeholder="Enter password" id="password" />   
+            <input type="password" placeholder="Enter password (check)" id="passwordCheck" />
+            <br><br>
+            <input type="checkbox" id="newsletter" />Send me monthly newsletter
+            <br><br>
+            <span>What is your question?</span>
+            <br>
+            <textarea id="question" rows="4"></textarea>
+            <br><br>
+            <button onclick="sendContact();">Send contact</button>
         </section>
 
         <div id="crazyfooter"></div>
@@ -85,6 +92,7 @@
             <span class="icon is-large">
             <i class="fa-brands fa-instagram fa-2x"></i>
             </span>
+            <div>&copy; 2023 Sean Waters</div>
         </footer>
     </body>
 </html>
